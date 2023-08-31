@@ -1,0 +1,14 @@
+.d-flex {
+  display: flex;
+}
+
+
+
+header {
+  height: 70px;
+}
+
+aside  {
+  width: 150px;
+  height: 100vh;
+}
