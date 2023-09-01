@@ -14,48 +14,65 @@
 </head>
 <body>
   <header>
-    <div class="container-fluid">
+    <div class="container-fluid ">
 
-      <div class="row">
+      <div class="row py-3">
 
-        <div class="col-2">logo</div>
+        <div class="col-2 align-items-center justify-content-center d-flex"><img src="img/logo.svg" alt=""></div>
 
         <div class="col-8">
-          <div class="input-group">
-            <div class="input-group rounded">
-              <span class="input-group-text border-0" id="search-addon">
+          
+            <div class="input-group">
+              <span class="input-group-text border-0 search-icon-ms" id="search-addon">
                 <i class="fas fa-search"></i>
               </span>
-              <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+              <input type="search" class="form-control search-ms " placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search" aria-describedby="search-addon" />
             </div>
-          </div>
+          
         </div>
 
-        <div class="col-2">
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-              <button class="dropdown-item" type="button">Action</button>
-              <button class="dropdown-item" type="button">Another action</button>
-              <button class="dropdown-item" type="button">Something else here</button>
+        <div class="col-2 list-icons d-flex justify-content-center align-items-center">
+          <ul class="row d-flex">
+            <li><i class="fa-solid fa-list-ul" style="color: #5B5858;"></i></li>
 
-            </div>
-          </div>
+            <li><i class="fa-solid fa-circle-question" style="color: #5B5858;"></i></li>
+
+            <li><i class="fa-solid fa-ellipsis-vertical" style="color: #5B5858;"></i></li>
+
+            <li><div class="dropdown">
+                  <button class="fa-solid fa-bell drop-bell border-0 " style="color: #ff8f00;" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button">Profilo</button>
+                    <button class="dropdown-item" type="button">Fatturazione</button>
+                    <button class="dropdown-item" type="button">Logout</button>
+                  </div>
+
+                </div>
+            </li>
+          </ul>
         </div>
       </div>
       
     </div>
   </header>
   <main>
-    <aside class="fixed-left">
-      <div class="top-side">
-        
+    <!-- <div class="container-fluid"> -->
+      <div class="row d-flex flex-wrap">
+        <aside class="fixed-left">
+          <div class="top-side">
+            
+          </div>
+          <div class="bottom-side"></div>
+        </aside>
+    
+        <content  style="height: 100px" class="top  bg-primary d-flex w-100">s</content>
+        <content style="height: 100vh" class="bottom d-flex bg-secondary w-100">ga</content>
       </div>
-      <div class="bottom-side"></div>
-    </aside>
-
+    <!-- </div> -->
+    
+    
   </main>
   
 </body>

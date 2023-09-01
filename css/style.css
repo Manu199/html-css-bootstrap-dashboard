@@ -9,6 +9,46 @@ header {
 }
 
 aside  {
-  width: 150px;
+  width: 122px;
   height: 100vh;
+}
+
+.input-group>.form-control:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.search-icon-ms {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.search-ms {
+  border: 0;
+  background-color: #e9ecef;
+}
+
+div .list-icons ul{
+  list-style: none;
+  justify-content: space-between;
+}
+
+div .list-icons ul li{
+  padding-left: 10px;
+}
+
+.drop-bell {
+  background-color: white;
+}
+
+.drop-bell:active {
+  border: 0;
+}
+
+aside {
+  background-color: chocolate;
+}
+
+div.row {
+  flex-wrap: nowrap;
+
 }
