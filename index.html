@@ -40,10 +40,10 @@
             <li><i class="fa-solid fa-ellipsis-vertical" style="color: #5B5858;"></i></li>
 
             <li><div class="dropdown">
-                  <button class="fa-solid fa-bell drop-bell border-0 " style="color: #ff8f00;" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <button class="btn fa-solid fa-bell drop-bell border-0 " style="color: #ff8f00;" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     
                   </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
                     <button class="dropdown-item" type="button">Profilo</button>
                     <button class="dropdown-item" type="button">Fatturazione</button>
                     <button class="dropdown-item" type="button">Logout</button>
@@ -58,19 +58,105 @@
     </div>
   </header>
   <main>
-    <!-- <div class="container-fluid"> -->
-      <div class="row d-flex flex-wrap">
-        <aside class="fixed-left">
-          <div class="top-side">
-            
+    <div class="container-fluid">
+      <div class="row d-flex">
+        <aside class="fixed-left ">
+          <!-- <div class="top-side">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, in optio libero harum quo iure labore sequi quia eos fugit architecto, ut accusantium animi sed aut deserunt. Debitis, optio! Et.
           </div>
-          <div class="bottom-side"></div>
+          <div class="bottom-side">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro eaque dolor saepe debitis! Velit et explicabo eum, autem maxime incidunt similique dolore iusto voluptate praesentium fugiat eligendi ad reiciendis nesciunt magni repudiandae repellat porro deserunt vel maiores ducimus odit. Repellat ab ullam quia harum minima sint corrupti minus eligendi numquam! Repellendus, temporibus? Ab earum voluptatem nemo officia rerum reprehenderit quisquam minima dicta, nostrum molestiae obcaecati in commodi repudiandae. Accusamus, tempora placeat? Cum hic voluptatum necessitatibus atque velit nisi incidunt nam suscipit temporibus aspernatur, est sit rem blanditiis at veritatis accusantium vitae sed unde? Expedita in error architecto aspernatur voluptas quos quasi! Adipisci sapiente ducimus facilis eveniet illum, neque iste, voluptatibus assumenda, tenetur similique ab ipsam earum! Quos odit ipsam perferendis reiciendis, enim quis velit corporis eum consequatur. Itaque reprehenderit tempore autem. Deleniti, delectus fugiat? Error voluptatum dolorem quas aliquid delectus distinctio doloribus, inventore modi iure quos autem tempore quia ab nisi iste, incidunt, odit blanditiis natus debitis? Magnam nobis illo, doloribus, sed quia amet sequi quis dignissimos suscipit at quasi eligendi esse laudantium officiis modi numquam impedit in reiciendis ea culpa. Neque et delectus modi illo rerum doloribus vel nesciunt, veniam reiciendis vitae natus, magni quas error sit alias laudantium?</div> -->
         </aside>
-    
-        <content  style="height: 100px" class="top  bg-primary d-flex w-100">s</content>
-        <content style="height: 100vh" class="bottom d-flex bg-secondary w-100">ga</content>
+
+        <div class="content w-100">
+          <content  style="height: 100px" class="top  bg-primary d-flex w-100"></content>
+          <content class="bottom d-flex">
+            <div class="content-left">
+              <div class="card">
+                <h5 class="card-header">Prossime classi</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  Featured
+                </div>
+                <div class="card-body">
+
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="content-right">
+              <div class="card">
+                <h5 class="card-header">Todo</h5>
+                <div class="card-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
+                      <label class="form-check-label stretched-link" for="firstCheckboxStretched">First checkbox</label>
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                      <label class="form-check-label stretched-link" for="secondCheckboxStretched">Second checkbox</label>
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckboxStretched">
+                      <label class="form-check-label stretched-link" for="thirdCheckboxStretched">Third checkbox</label>
+                    </li>
+                  </ul> 
+                </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                This is some text within a card body.
+              </div>
+            </div>
+          </content>
+        </div>
+ 
       </div>
-    <!-- </div> -->
+    </div>
     
     
   </main>

@@ -37,7 +37,7 @@ div .list-icons ul li{
 }
 
 .drop-bell {
-  background-color: white;
+  background:none;
 }
 
 .drop-bell:active {
@@ -45,10 +45,18 @@ div .list-icons ul li{
 }
 
 aside {
-  background-color: chocolate;
+  height: calc(100vh - 70px);
+  image: url("img/sidebar-bg.png");
+  background-color: #051E34;
+  background-size: cover;
+  overflow: hidden;
 }
 
 div.row {
   flex-wrap: nowrap;
-
 }
+
+content.bottom {
+  height: calc(100vh - 170px);
+}
+
